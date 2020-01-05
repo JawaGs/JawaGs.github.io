@@ -1,0 +1,69 @@
+/* Estilos Generales */
+*{
+  font-family: 'Handlee', cursive !important;
+  scroll-behavior: smooth;
+}
+
+a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+a:hover{
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+/****** Estilos de la Navegacion *******/
+.NavLink{
+  color: rgba( 255,255,255,0.5 ) !important;
+  font-size: 3.8vh;
+}
+.NavLink:hover{
+  color: rgb( 255,255,255 ) !important;
+}
+
+/******** Estilos del HeroSection ********/
+
+.Titulo{
+  margin-left: 33vw;
+  font-size: 13.5vh;
+}
+
+.Hero{
+  height: 90vh;
+  background-color: #00bc8c;
+  margin-top: 10vh;
+  width: 100vw;
+}
+
+.Subtitulo{
+  margin-left: 34.5vw;
+  font-size: 6.5vh;
+}
+
+@media (max-width: 400px) {
+  .Titulo{
+    margin-left: 11.5vw;
+    font-size: 8vh;
+    margin-top: 18vh;
+  }
+  .Subtitulo{
+    margin-left: 18vw;
+    font-size: 3.5vh;
+  }
+  
+}
+
+/******** Estilos de Carta ********/
+
+.ImagenDeCarta{
+  height: 40vh;
+}
+
+/* Estilos de contacto */
+
+.iconos{
+  margin-left: 20vw ;
+  font-size: 2vmax;
+  margin-top: 2vmax;
+}
